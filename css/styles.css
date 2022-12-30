@@ -73,6 +73,7 @@ body {
 
 .header-item {
     font-weight: 500;
+    color: var(--hero-footer-backgroudcolor);
 }
 
 /* .header-links {
