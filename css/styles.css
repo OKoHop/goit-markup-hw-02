@@ -1,5 +1,7 @@
+/*---------------------------------- Main styles ----------------------------------*/
 :root {
     --hover-focus-color:#4D5AE5;
+    --pressed-color:#404BBF;
     --hero-footer-backgroudcolor:#2E2F42;
     --success-color:#31D0AA;
     --body-color:#434445;
@@ -44,18 +46,6 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
-
-/* .header {
-}
-.header-nav {
-} */
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--hover-focus-color);
 }
 
 .link {
@@ -64,11 +54,32 @@ body {
     color: var(--hero-footer-backgroudcolor);
 }
 
+.list {
+    list-style: none;
+}
+
+/*---------------------------------- Header Styles ----------------------------------*/
+  
+/* .header {
+}
+.header-nav {
+} */
 /* .header-list {
 } */
 
-.list {
-    list-style: none;
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--hero-footer-backgroudcolor);
+}
+
+.logo-header span {
+    color: var(--hover-focus-color);
 }
 
 .header-item {
@@ -83,16 +94,18 @@ body {
 .header-tel {
 } */
 
+/*---------------------------------- Hero Styles ----------------------------------*/
+
 .hero {
     background: var(--hero-footer-backgroudcolor);
 }
 .hero-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color:var(--light-color);
+    color:#FFFFFF;
 }
 .hero-btn {
     font-family: "Roboto", sans-serif;
@@ -100,9 +113,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--light-color);
+    color: #FFFFFF;
     background-color: var(--hover-focus-color);
 }
+
+/*---------------------------------- Text section Styles ----------------------------------*/
 
 /* .text {
 }
@@ -117,11 +132,11 @@ body {
     color: var(--hero-footer-backgroudcolor);
 }
 /* .text-list {
-} */
-/* .list {
 }
 .text-item {
 } */
+
+/*---------------------------------- Actibities Styles ----------------------------------*/
 
 /* .activities {
 } */
@@ -136,15 +151,17 @@ body {
 }
 /* .activities-list {
 }
-.list {
-}
 .activities-item {
 }
 .activities-img {
 } */
+
+/*---------------------------------- Team Styles ----------------------------------*/
+
 .team {
     background-color: var(--light-color);
 }
+
 .team-title {
     font-weight: 500;
     font-size: 36px;
@@ -154,14 +171,14 @@ body {
     text-transform: capitalize;
     color: var(--hero-footer-backgroudcolor);
 }
+
 /* .team-list {
-}
-.list {
 }
 .team-item {
 }
 .team-img {
 } */
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -171,24 +188,41 @@ body {
 }
 /* .team-jobtitle {
 } */
+
+/*---------------------------------- Footer Styles ----------------------------------*/
+
 .footer {
     background-color: var(--hero-footer-backgroudcolor);
 }
-.footer-logo {
+
+.logo-footer {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-color)
+}
+
+.logo-footer span {
+    color: var(--hover-focus-color);
 }
 
 .footer-text {
-    font-style: normal;
     color: var(--accent-color);
 }
+
+/*---------------------------------- Portfolio Page Styles ----------------------------------*/
+
+/*---------------------------------- Filter Styles ----------------------------------*/
 
 /* .filter {
 } */
 /* .filter-title {
 } */
 /* .filter-list {
-}
-.list {
 }
 .filter-item {
 } */
@@ -201,16 +235,27 @@ body {
     color: var(--hover-focus-color);
 }
 
-.projects {
+/*---------------------------------- Projects Styles ----------------------------------*/
+
+/* .projects {
+} */
+
+.project-link {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--hero-footer-backgroudcolor);
+
 }
-.projects-title {
+
+/* .projects-title {
 }
 .projects-list {
 }
 .projects-item {
 }
 .projects-img {
-}
+} */
+
 .projects-img-title {
     font-weight: 500;
     font-size: 20px;
@@ -218,5 +263,5 @@ body {
     letter-spacing: 0.02em;
     color: var(--hero-footer-backgroudcolor);
 }
-.projects-img-text {
-}
+/* .projects-img-text {
+} */
